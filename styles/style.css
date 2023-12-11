@@ -1,0 +1,213 @@
+
+:root{
+    --font-primary:'Montserrat Alternates', sans-serif;
+    --font-secondary:'Montserrat', sans-serif;
+    --font-tertiary:'Roboto', sans-serif;
+    --color-morado:linear-gradient(90deg, rgba(180, 146, 253, 0.3) 0%, rgba(173, 78, 245, 0.9543) 100%);
+
+}
+body{
+    width: 1440px;
+    height: 1024px;
+    top: -1106px;
+    left: 823px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
+.container{
+    height: 600px;
+    width: 1600px;
+    top: -1106px;
+    left: 823px;
+    display: flex;
+    
+}
+.mitad-izquierda{
+    width: 1000px;
+    height: 734px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0px 150px;
+}
+
+.mitad-izquierda-container{
+    width: 500px;
+    height: 650px;
+    /* top: 144px;
+    left: 153px; */
+    background-color: white;
+    /* display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,1fr); */
+    padding: 80px 60px 40px 60px;
+    box-shadow: 20px 20px 60px 0px #5E5E5E26;
+}
+
+.email, .password, .account{
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.create{
+    color: black;
+    text-align: left;
+    font-family: var(--font-primary);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    margin-bottom: 30px;
+
+
+}
+.logo-Apple, .logo-Google{
+    border: black 1px solid;
+    margin: 5px;
+    font-family: var(--font-secondary);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+
+}
+.logo-Google{
+    border-radius: 12px;
+    width: 45%;
+    background-color: #fff;
+ 
+
+}
+.logo-Apple{
+    border-radius: 12px;
+    width: 45%;
+    background-color: #fff;
+}
+
+#linea1{
+    width: 45%;
+    height: 1px;
+    background-color:#6667B0;
+     
+} 
+
+
+
+#linea2{
+    width: 45%;
+    height: 1px;
+    background-color:#6667B0;
+    
+}
+
+
+.email input, .password input{
+    border-radius: 12px;
+    width: 100%;
+    height: 67px;
+    color: #6667B0;
+    font-family:var(--font-secondary);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#colocaemail, #colocapassword {
+font-family: var(--font-secondary);
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 30px;
+
+}
+
+.login button{
+    background-color: #6B43FF;
+    border-radius: 12px;
+    width: 100%;
+    height: 67px;
+    font-weight: 700;
+    top: 697px;
+    left: 216px;
+    font-family: var(--font-tertiary);
+    color: white;
+    font-size: 30px;
+}
+
+
+.account{
+    display: flex;
+    justify-content: right;
+    color: #6B43FF;
+    font-family: var(--font-secondary);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px;
+
+    
+
+}
+.mitad-derecha{
+    width: 587px;
+    height: 1032px;
+    left: 853px;
+    background: var(--color-morado);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+ }
+.mitad-derecha img{
+    
+    width:407px;
+    height:505px;
+    top:259px;
+    left:970px;
+    
+
+}
+.mitad-izquierda img{
+    width: 45px;
+    height: 45px;
+}
+
+.wraper-boton{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+
+}
+.or2 {
+    width: 10%;
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0em;
+
+}
+
+.login{
+    margin-top: 60px;
+}
