@@ -1,0 +1,24 @@
+/*Elimine el bloque de codigo que estaba al principio*/
+
+/* Variables */
+html { /*Elimine varios elementos de colores que no se necesitaban, solo deje el azul que es color del backround y lo referente al tamaño de letra y tipo de letra. ya que solo tenemos 3 etiquetas definidas. */
+  
+  --blue: #0072B9;
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before,*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-size: 2rem;
+  line-height: 1.5;
+  background-color: var(--blue);
+  background-size: 15px;
+}
+
+/*elimine los elementos de estilos definidos despues de esto, porque no eran necesarios*/
